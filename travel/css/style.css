@@ -107,3 +107,89 @@ div#menu a {
     color: white;
 }
 
+
+
+
+
+div #logo img {
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+#tours {
+    text-align: left;
+}
+
+div.tour a {
+    background-color: #66CDAA;
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    box-shadow: 20px 0 20px - 20px #000 inset, -20px 0 20px -20px #000 inset;
+}
+.tour img {
+    width: max;
+    height: 150px;
+}
+#tours td {
+    text-align: center;
+    border: 2px solid red;
+}
+table#tours {
+    width: 80%;
+    margin: auto;
+}
+table#tours td{
+    text-align: center;
+    border: 2px solid red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 80%;
+    margin: auto;
+}
+
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #007196;
+    text-align: center;
+    clear: left;
+}
+
+
+
+div#content {
+    font-family: Verdana;
+    font-style: normal;
+    font-size: normal;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(102, 205, 170);
+}
+#main {
+    color: #008080;
+    font-weight: normal;
+    text-align: justify;
+}
+
+nav {
+    height: 40px;
+    background-color: #66CDAA;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border: solid white 2px;
+
+}
+
