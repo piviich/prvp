@@ -1,57 +1,79 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Сайт туристической компании</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-    <div id="content">
-        <header>
-            <div id="logo">
-                <img src="img/logo.jpg" alt="Логотип">
-            </div>
-            <div id="name">
-                <h1>ПУТЕШЕСТВУЙ С НАМИ!</h1>
-            </div>
-        </header>
-            <nav>
-                <a href="index.html">Главная страница</a>
-                <a href="tours.html">Наши туры</a>
-                <a href="contacts.html">О нас</a>
-            </nav>
-            <div id="tours">
-                <p>Акции и скидки</p>
-                <div class="tour">
-                    <p>Крым</p>
-                    <img src="img/crimea.jpg">
-                    <p>
-                        <a class="actia" href="#">
-                            Подробнее об акции
-                        </a>
-                    </p>
-                </div>
-                <div class="tour">
-                    <p>Кавказ</p>
-                    <img src="img/crimea.jpg">
-                    <p>
-                        <a class="actia" href="#">
-                            Подробнее об акции
-                        </a>
-                    </p>
-                </div>
-                <div class="tour">
-                    <p>Алтай</p>
-                    <img src="img/crimea.jpg">
-                    <p>
-                        <a class="actia" href="#">
-                            Подробнее об акции
-                        </a>
-                    </p>
-                </div>
-            </div>
-    </div>
-    <footer>Это сайт, предназначенный для обучения</footer>
+<!doctype html>
+<html lang="en">
 
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit = no">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Hello World!</title>
+</head>
+
+<body class="body-top">
+  <header class="container">
+    <div class="row">
+      <div class="col-3">
+        <img id="logo" src="img/logo.jpg">
+      </div>
+      <div class="col-9">
+        <h1> Путешевствуйте с нами!</h1>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+  <div id="menu">
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link " href="index.html">Главная</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="tours.html">Туры</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="contacts.html">О нас</a>
+    </nav>
+  </div>
+
+  <main class="flex">
+    <div class="row">
+      <div class="col">
+        Наши акции
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="tour">
+          <img src="img/crimea.jpg">
+          <p>
+            <a href="#" class="actia"> Подробнее об акции</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="tour">
+          <img src="img/kavkaz.jpg">
+          <p>
+            <a href="#" class="actia"> Подробнее об акции</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="tour">
+          <img src="img/altay.jpg">
+          <p>
+            <a href="#" class="actia"> Подробнее об акции</a>
+          </p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="col">
+            Это сайт, предназначен для обучения
+          </div>
+        </div>
+      </footer>
+      <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
