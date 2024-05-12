@@ -1,3 +1,115 @@
+body {
+    font-family: Verdana;
+    
+}
+
+
+.body-top {
+    width: 80%;
+    border: none;
+    margin: auto;
+    font-style: normal;
+    font-size: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: #007196;
+    vertical-align: center;
+}
+
+
+#logo {
+    max-width: 180px;
+    max-height: 140px;
+}
+
+.col-9 {
+    display: flex;
+}
+
+h1 {
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+      
+    #logo {
+        max-width: 100px;
+        max-height: 70px;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+}
+#menu {
+    background-color: #66cdaa;
+}
+
+a {
+    color: white;
+    border:solid white;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+}
+
+.tour {
+    border: solid #007196;
+}
+
+.tour img {
+    width: 250px;
+    height: 170px;
+    padding: 5px;
+
+}
+.container {
+    font-family: Verdana;
+    font-style: normal;
+    font-size: normal;
+    font-weight: bold;
+    text-align: center;
+}
+.tour a {
+    background-color: #66cdaa;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 70px;
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    color: white;
+    background-color: #007196;
+    
+}
+
+div#menu a {
+    color: white;
+}
+
+
+
+
 
 div #logo img {
     width: 200px;
@@ -7,14 +119,7 @@ div #logo img {
 #tours {
     text-align: left;
 }
-.tour {
-    width: 30%;
-    border: #66CDAA solid 2px;
-    text-align: center;
-    padding: 5px;
-    margin: 3px;
-    float: left;
-}
+
 div.tour a {
     background-color: #66CDAA;
     text-decoration: none;
@@ -50,7 +155,7 @@ body {
     margin: auto;
 }
 
-header,
+
 footer {
     padding: 1em;
     color: white;
@@ -77,18 +182,39 @@ div#content {
 
 nav {
     height: 40px;
-    border: solid #333;
-    padding: 1em;
-    text-align: center;
-    list-style-type: none;
     background-color: #66CDAA;
 }
 
 nav a {
-    margin-right: 10px;
     text-decoration: none;
     padding: 10px;
     color: white;
     border: solid white 2px;
+
 }
 
+.tour_t {
+    border: solid #007196;
+    margin: auto;
+    height: 100%;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.tour_t img {
+    width: 250px;
+    height: 170px;
+    padding: 5px;
+}
+
+.tour p .tour img {
+    margin: 0 10px;
+}
+
+.btn {
+    margin-left: auto;
+    order: 999;
+    background-color: #66cdaa;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+    color: white;
+}
